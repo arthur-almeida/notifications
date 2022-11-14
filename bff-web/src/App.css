@@ -1,0 +1,44 @@
+.App-header {
+  background-color: #FFFFFF;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: center;
+  color: #000;
+}
+
+.section {
+  background-color: #FFFFFF;
+  width: 30%;
+  min-height: 512px;
+  border: 1px solid #000000;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.form {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-top: 8px;
+}
+
+.addComponent {
+  margin-top: auto;
+}
+
+.dont-break-out {
+  white-space: pre-wrap; /* CSS3 */    
+  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */    
+  white-space: -o-pre-wrap; /* Opera 7 */    
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+.preview {
+  border: 1px solid #000000;
+  width: 412px;
+  height: 915px;
+}
